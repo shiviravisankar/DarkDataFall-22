@@ -1,7 +1,9 @@
 /* SETUP */
 body{
     margin: 0;
+    background-color: #333;
 }
+
 /* FONTS */
 @font-face {
     font-family: 'epilogueitalic';
@@ -18,29 +20,102 @@ body{
     font-style: normal;
 }
 
+/* DROPDOWN NAV */
+
+
+
 /* GRID STYLES */
 .grid{
     --gap: 16px;
 	--num-cols: 5;
-	--row-height: 250px;
+	--row-height: 270px;
 
 	box-sizing: border-box;
 	padding: var(--gap);
+
 	display: grid;
-    width: 100vw;
-    height: 100vh;
 	grid-template-columns: repeat(var(--num-cols), 1fr);
 	grid-auto-rows: var(--row-height);
 	gap: var(--gap);
-    background-color: blue;
 }
-.container{
-    display: grid;
-    background-color: blueviolet;
+
+.grid > img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
+/* NAME */
+.one {
+    border-radius: 0% 30% 50% 70%;
+}
+
+/* NAME */
+.two {
+    border-radius: 0% 50% 0% 0%;
+}
+
+/* NAME */
+.three {
+    border-radius: 20% 20% 20% 20%;
+}
+
+/* NAME */
+.four {
+    border-radius: 0% 20% 60% 20%;
+}
+
+/* NAME */
+.five {
+    border-radius: 50% 0% 50% 0%;
+}
+
+/* NAME */
+.six {
+    border-radius: 0% 0% 70% 70%;
+}
+
+/* NAME */
+.seven {
+    border-radius: 0% 80% 0% 40%;
+}
+
+/* NAME */
+.eight {
+    border-radius: 0% 0% 0% 50%;
+}
+
+/* NAME */
+.nine {
+    border-radius: 0% 70% 70% 0%;
+}
+
+/* NAME */
+.ten {
+    border-radius: 0% 0% 30% 30%;
+}
+
+/* NAME */
+.eleven {
+    border-radius: 20% 0% 20% 0%;
+}
+
+/* NAME */
+.twelve {
+    border-radius: 20% 20% 20% 20%;
+}
+
+/* NAME */
+.thirteen {
+    border-radius: 50% 0% 20% 40%;
+}
+
+/* NAME */
+.fourteen {
+    border-radius: 5% 5% 5% 5%;
+}
+
+
 /*SCREENS UNDER 1024PX*/
 @media screen and (max-width: 1024px ) {
     .grid{
@@ -54,5 +129,8 @@ body{
     .grid{
         --num-cols: 2;
         --row-height: 100px;
+    }
+    .grid > img {
+        border-radius: 10px;
     }
 }
