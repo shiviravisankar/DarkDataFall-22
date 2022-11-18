@@ -41,10 +41,6 @@ body{
     height: 100%;
     object-fit: cover;
 }
-.ten{
-    grid-row: span 2;
-}
-
 /*SCREENS UNDER 1024PX*/
 @media screen and (max-width: 1024px ) {
     .grid{
@@ -56,7 +52,7 @@ body{
 /*SCREENS UNDER 500PX*/
 @media screen and (max-width: 500px ) {
     .grid{
-        --num-cols: 1;
+        --num-cols: 2;
         --row-height: 100px;
     }
 }
