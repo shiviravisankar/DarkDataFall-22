@@ -45,6 +45,11 @@ iframe {
 	border: unset;
 }
 
+sup {
+	font-size:x-small; 
+	vertical-align:top;
+}
+
 
 
 /* Disclosure triangles. */
