@@ -1,4 +1,97 @@
-body{
-    background: white;
-    color: black;
+/*PAGE SETUP*/
+    body{
+        background-image: linear-gradient(#ec2F4B, #009FFF);
+        color: black;
+        font-family: 'epilogueregular', sans-serif;
+        margin: auto;
+        padding: auto;
+        width: 80%;
+    }
+
+    .intro{
+        margin-top: 50px;
+    }
+
+/*MAIN HEADING*/
+    h1{
+        font-size: var(--main-heading);
+        margin-bottom: 10px;
+        font-weight: 800;
+    }
+
+/*LINE*/
+.line{
+        border-top: 2px solid;
+        margin-top: 20px;
+        margin-bottom: 50px;
 }
+
+/*SUB HEADING*/
+    h4{
+        font-size: var(--sub-heading);
+    }
+
+/*FLEX BOXES*/
+    /*FLEX BOX 1*/
+    .partone {
+        display: flex;
+        padding-bottom: 50px;
+    }
+
+    .paragraph{
+        flex: 70%;
+    }
+
+    .footnotes{
+        flex: 30%;
+        font-size: var(--footnote);
+        line-height: var(--footnote-spacing);
+    }
+
+    .footnotes p{
+        margin-bottom: 20px;
+    }
+
+    .paragraphone p{
+       margin-right: 30px;
+    }
+
+    /*FLEX BOX 2*/
+    .parttwo{
+        display: flex;
+        padding-bottom: 50px;
+    }
+
+    .paragraphtwo p{
+        margin-left: 50px;
+     }
+
+    /*FLEX BOX 3*/
+        .partthree{
+            display: flex;
+            padding-bottom: 50px;
+        }
+
+        /*FLEX BOX 4*/
+            .partfour{
+                display: flex;
+                padding-bottom: 50px;
+            }
+
+        /*FLEX BOX 5*/
+        .partfive{
+            display: flex;
+            padding-bottom: 50px;
+        }
+
+        /*FLEX BOX 6*/
+            .partsix{
+                display: flex;
+                padding-bottom: 50px;
+            }
+
+        /*FLEX BOX 7*/
+        .partseven{
+            display: flex;
+            padding-bottom: 150px;
+        }
