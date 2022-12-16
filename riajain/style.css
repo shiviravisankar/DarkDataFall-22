@@ -57,6 +57,17 @@ h4{
     margin-bottom: 50px;
 }
 
+/*LINKS*/
+a{
+    color: blue;
+    text-decoration: underline;
+}
+
+a::visited{
+    color: blue;
+    text-decoration: underline;
+}
+
 /*TITLES*/
 h6{
     font-size: var(--body-copy);
@@ -75,7 +86,16 @@ ul{
     margin-bottom: 50px;
 }
 
+li{
+    margin-bottom: 20px;
+}
+
 h5{
     font-size: var(--body-copy);
-    font-weight: 600;
+    text-decoration: underline;
+}
+
+/*TOP MARGIN EXCEPT TITLE 1*/
+.revert h6{
+    margin-top: 30px;
 }
