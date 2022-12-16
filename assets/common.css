@@ -10,7 +10,10 @@
     --hover-text-line-height: calc(var(--hover-text)*1.4);
 
     --sub-heading: 22px;
-    --sub-heading-line-height: calc(var(--sub-heading)*1.5);
+    --sub-heading-line-height: calc(var(--sub-heading));
+
+    --title: 14px;
+    --title-line-height: calc(var(--title));
 
     --footnote: 11px;
     --footnote-spacing: calc(var(--footnote)*1.5);

@@ -1,0 +1,81 @@
+/*PAGE SETUP*/
+body{
+    background-color: white;
+    color: black;
+    font-family: 'epilogue', sans-serif;
+    margin: auto;
+    padding: auto;
+    width: 80%;
+    font-size: var(--body-copy);
+    line-height: var(--body-copy-line-height);
+}
+
+.intro{
+    margin-top: 50px;
+}
+
+/*FLEX BOX*/
+.content{
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.bodytext{
+    flex: 80%;
+    margin-right: 30px;
+}
+
+.footnotes{
+    flex: 20%;
+    font-size: var(--footnote);
+    line-height: var(--footnote-spacing);
+}
+
+.footnotes p{
+    margin-bottom: 40px;
+}
+
+/*MAIN HEADING*/
+h1{
+    font-size: var(--main-heading);
+    line-height: var(--main-heading-line-height);
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/*SUB HEADING*/
+h4{
+    font-size: var(--sub-heading);
+    margin-bottom: 20px;
+}
+
+/*LINE*/
+.line{
+    border-top: 2px solid;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/*TITLES*/
+h6{
+    font-size: var(--body-copy);
+    line-height: var(--body-copy-line-height);
+    font-weight: bold;
+}
+
+/*BODY TEXT*/
+
+p{
+    margin-bottom: 10px;
+}
+
+ul{
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+h5{
+    font-size: var(--body-copy);
+    font-weight: 600;
+}
