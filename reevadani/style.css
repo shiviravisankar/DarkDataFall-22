@@ -1,6 +1,6 @@
 /*PAGE SETUP*/
     body{
-        background-image: linear-gradient(#ec2F4B, #009FFF);
+        background-color: white;
         color: black;
         font-family: 'epilogue', sans-serif;
         margin: auto;
@@ -14,13 +14,24 @@
         margin-top: 50px;
     }
 
+/*LINKS*/
+    a{
+        color: blue;
+        text-decoration: underline;
+    }
+
+    a::visited{
+        color: blue;
+        text-decoration: underline;
+    }
+
 /*MAIN HEADING*/
     h1{
         font-size: var(--main-heading);
         line-height: var(--main-heading-line-height);
         font-weight: 600;
-        margin-top: 30px;
-        margin-bottom: 15px;
+        margin-top: 50px;
+        margin-bottom: 20px;
     }
 
 /*LINE*/
@@ -43,10 +54,6 @@
         padding-bottom: 50px;
     }
 
-    .paragraph{
-        flex: 70%;
-    }
-
     .footnotes{
         flex: 30%;
         font-size: var(--footnote);
@@ -59,6 +66,7 @@
 
     .paragraphone p{
        margin-right: 30px;
+       margin-bottom: 10px;
     }
 
     /*FLEX BOX 2*/
@@ -69,6 +77,7 @@
 
     .paragraphtwo p{
         margin-left: 50px;
+        margin-bottom: 10px;
      }
 
     /*FLEX BOX 3*/
