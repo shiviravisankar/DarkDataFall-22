@@ -2,10 +2,12 @@
     body{
         background-image: linear-gradient(#ec2F4B, #009FFF);
         color: black;
-        font-family: 'epilogueregular', sans-serif;
+        font-family: 'epilogue', sans-serif;
         margin: auto;
         padding: auto;
         width: 80%;
+        font-size: var(--body-copy);
+        line-height: var(--body-copy-line-height);
     }
 
     .intro{
@@ -15,8 +17,10 @@
 /*MAIN HEADING*/
     h1{
         font-size: var(--main-heading);
-        margin-bottom: 10px;
-        font-weight: 800;
+        line-height: var(--main-heading-line-height);
+        font-weight: 600;
+        margin-top: 30px;
+        margin-bottom: 15px;
     }
 
 /*LINE*/
@@ -29,6 +33,7 @@
 /*SUB HEADING*/
     h4{
         font-size: var(--sub-heading);
+        margin-bottom: 20px;
     }
 
 /*FLEX BOXES*/

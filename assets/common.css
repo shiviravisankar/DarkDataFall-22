@@ -1,7 +1,7 @@
 /* SETUP FOR TYPOGRAPHY */
 :root{
     --body-copy:17px;
-    --body-copy-line-height: calc(var(--body-copy));
+    --body-copy-line-height: calc(var(--body-copy)*1.5);
 
     --main-heading: calc(var(--body-copy)*8);
     --main-heading-line-height: calc(var(--main-heading));
@@ -24,7 +24,7 @@ body{
     font-family: 'epilogueitalic';
     src: url('epilogue-italic-variablefont_wght-webfont.woff2') format('woff2'),
          url('epilogue-italic-variablefont_wght-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: 100, 200, 300, 400, 500, 600, 700, 800, 900;
     font-style: normal;
 }
 @font-face {
