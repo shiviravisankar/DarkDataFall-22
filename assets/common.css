@@ -135,9 +135,14 @@ body{
     border-radius: 0% 80% 0% 40%;
 }
 
-/* NAME */
+/* RIA */
 .eight {
     border-radius: 0% 0% 0% 50%;
+}
+
+.ria:hover{
+    transform: scale(1.15);
+    transition: transform .5s ease;
 }
 
 /* NAME */
