@@ -1,0 +1,147 @@
+body{
+    background-image: linear-gradient(#ADA996, #F2F2F2, #DBDBDB, #EAEAEA);
+    color: black;
+    font-family: 'epilogue', sans-serif;
+    margin: auto;
+    padding: auto;
+    width: 75%;
+    font-size: var(--body-copy);
+    line-height: var(--body-copy-line-height);
+}
+
+.intro{
+    margin-top: 50px;
+}
+
+/*ARROW*/
+.sticky {
+    position: sticky;
+    top: 0;
+    float: left;
+    margin-left: -120px;
+    font-size: 8vw;
+    margin-top: 20px;
+} 
+
+/*MAIN HEADING*/
+h1{
+    font-size: var(--main-heading);
+    line-height: var(--main-heading-line-height);
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/*SUB HEADING*/
+h4{
+    font-size: var(--sub-heading);
+    margin-bottom: 20px;
+}
+
+/*LINE*/
+.line{
+    border-top: 2px solid;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.linetwo{
+    border-top: 1px dotted;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*LINKS*/
+a{
+    color: blue;
+    text-decoration: underline;
+}
+
+a::visited{
+    color: blue;
+    text-decoration: underline;
+}
+
+/*FLEX BOX*/
+.content{
+    display: flex;
+    margin-bottom: 150px;
+    margin-top: 50px;
+}
+
+.maintext{
+        flex: 80%;
+        margin-right: 30px;
+}
+
+.footnotes{
+    flex: 20%;
+    font-size: var(--footnote);
+    line-height: var(--footnote-spacing);
+}
+
+.footnotes p{
+    margin-bottom: 40px;
+}
+
+/*TITLES*/
+h3{
+    font-size: var(--body-copy);
+    line-height: var(--body-copy-line-height);
+}
+
+/*BODY TEXT*/
+
+h2{
+    font-size: var(--sub-heading);
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+h2 p{
+    font-size: var(--sub-heading);
+    line-height: var(--sub-heading-line-height);
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+ul{
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+li{
+    margin-bottom: 20px;
+}
+
+h5{
+    font-size: var(--body-copy);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.halftwo h5{
+    margin-top: 50px;
+}
+
+.maintext h2{
+    margin-top: 50px;
+}
+
+h6{
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+/*BULLET POINTS*/
+li{
+    list-style: none;
+}
+
+li::before{
+    content: "\1F36A";
+}
