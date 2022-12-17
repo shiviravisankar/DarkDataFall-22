@@ -44,6 +44,15 @@ body{
     font-style: normal;
 }
 
+/*LINKS*/
+a{
+    color: black;
+}
+
+a::visited{
+    color: black;
+}
+
 /* GRID STYLES */
 .grid{
     --gap: 16px;
@@ -162,6 +171,17 @@ body{
 .eleven {
     border-radius: 20% 20% 20% 20%;
     grid-column: span 2;
+}
+
+/*IMAGES*/
+
+figcaption{
+    font-size: var(--caption);
+    line-height: var(--caption-spacing);
+}
+
+img{
+    border-radius: 1.5%;
 }
 
 

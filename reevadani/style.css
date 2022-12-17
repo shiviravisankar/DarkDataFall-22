@@ -8,6 +8,7 @@
         width: 80%;
         font-size: var(--body-copy);
         line-height: var(--body-copy-line-height);
+        cursor: url(‘../images/clock.png’), auto;
     }
 
     .intro{
@@ -19,7 +20,7 @@
         color: blue;
         text-decoration: underline;
     }
-
+    
     a::visited{
         color: blue;
         text-decoration: underline;
@@ -117,17 +118,8 @@
         margin-bottom: 50px;
     }
 
-    figcaption{
-        font-size: var(--caption);
-        line-height: var(--caption-spacing);
-    }
-
     .two{
         margin-left: 50px;
         margin-top: 50px;
         margin-bottom: 50px;
-    }
-
-    img{
-        border-radius: 1.5%;
     }
