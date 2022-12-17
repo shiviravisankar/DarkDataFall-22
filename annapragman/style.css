@@ -70,12 +70,10 @@ a::visited{
 }
 
 .maintext{
-        flex: 80%;
-        margin-right: 30px;
+    margin-right: 30px;
 }
 
 .footnotes{
-    flex: 20%;
     font-size: var(--footnote);
     line-height: var(--footnote-spacing);
 }
