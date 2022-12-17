@@ -14,6 +14,16 @@ body{
     margin-top: 50px;
 }
 
+/*ARROW*/
+.sticky {
+    position: sticky;
+    top: 0;
+    float: left;
+    margin-left: -120px;
+    font-size: 8vw;
+    margin-top: 20px;
+} 
+
 /*FLEX BOX*/
 .content{
     display: flex;
