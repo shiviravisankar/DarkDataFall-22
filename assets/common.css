@@ -6,7 +6,7 @@
     --main-heading: calc(var(--body-copy)*8);
     --main-heading-line-height: calc(var(--main-heading));
 
-    --hover-text: 17px;
+    --hover-text: 24px;
     --hover-text-line-height: calc(var(--hover-text)*1.4);
 
     --sub-heading: 22px;
@@ -17,6 +17,9 @@
 
     --footnote: 11px;
     --footnote-spacing: calc(var(--footnote)*1.5);
+
+    --caption: 12px;
+    --caption-spacing: calc(var(--caption)*1.2);
 }
 
 /* PAGE SETUP */
@@ -83,10 +86,11 @@ body{
     font-size: var(--hover-text);
     line-height: var(--hover-text-line-height);
     font-family: 'epilogue', sans-serif;
+    font-weight: bold;
     color: black;
     background-color: white;
     margin:60px;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
 }
 
