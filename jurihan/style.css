@@ -1,0 +1,24 @@
+body{
+    background-color: white;
+    color: black;
+    font-family: 'epilogue', sans-serif;
+    margin: auto;
+    padding: auto;
+    width: 75%;
+    font-size: var(--body-copy);
+    line-height: var(--body-copy-line-height);
+}
+
+.intro{
+    margin-top: 50px;
+}
+
+/*ARROW*/
+.sticky {
+    position: sticky;
+    top: 0;
+    float: left;
+    margin-left: -120px;
+    font-size: 8vw;
+    margin-top: 20px;
+} 

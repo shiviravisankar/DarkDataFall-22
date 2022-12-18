@@ -19,10 +19,25 @@ body{
     position: sticky;
     top: 0;
     float: left;
-    margin-left: -120px;
+    margin-left: -155px;
+    padding-top: 4vw;
     font-size: 8vw;
-    margin-top: 20px;
 } 
+
+.sticky a{
+    color: white;
+    text-decoration: none;
+}
+
+a.sticky:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.sticky:hover{
+    transform: scale(1.5);
+    transition: transform .5s ease;
+}
 
 /*FLEX BOX*/
 .content{

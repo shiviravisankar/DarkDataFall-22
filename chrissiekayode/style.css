@@ -33,12 +33,12 @@ a::visited{
 }
 
 /*FLEXBOX*/
-.complete{
+.content{
     display: flex;
     margin-bottom: 150px;
 }
 
-.mainparagraph{
+.bodytext{
     flex: 80%;
     margin-right: 30px;
 }
