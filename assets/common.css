@@ -171,9 +171,14 @@ a::visited{
     border-radius: 0% 70% 70% 0%;
 }
 
-/* NAME */
+/* ANNA */
 .ten {
-    border-radius: 0% 0% 30% 30%;
+    border-radius: 5% 70% 30% 30%;
+}
+
+.anna:hover{
+    transform: scale(1.15);
+    transition: transform .5s ease;
 }
 
 /* NAME */
