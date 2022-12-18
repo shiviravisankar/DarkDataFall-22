@@ -155,9 +155,17 @@ a::visited{
     transition: transform .5s ease;
 }
 
-/* NAME */
+/* JURI */
 .seven {
     border-radius: 0% 80% 0% 40%;
+}
+.juri {
+    position: relative;
+}
+
+.juri:hover{
+    transform: scale(1.15);
+    transition: transform .5s ease;
 }
 
 /* RIA */

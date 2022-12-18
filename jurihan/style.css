@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(#ED213A, #93291E);
+    background-image: linear-gradient(#ED213A, #c31432);
     color: black;
     font-family: 'epilogue', sans-serif;
     margin: auto;
@@ -47,12 +47,12 @@ a.sticky:visited{
 
 /*LINKS*/
 a{
-    color: rgb(37, 37, 252);
+    color: blue;
     text-decoration: underline;
 }
 
 a::visited{
-    color: rgb(37, 37, 252);
+    color: blue;
     text-decoration: underline;
 }
 
@@ -68,8 +68,25 @@ h1{
 /*FLEXBOX*/
 .content{
     display: flex;
+    margin-bottom: 150px;
 }
 
 .paragraph{
-    flex: 3;
+    width: 70%;
+    margin-right: 50px;
+}
+
+.footnotes{
+    width: 30%;
+    font-size: var(--footnote);
+    line-height: var(--footnote-spacing);
+}
+
+.footnotes p{
+    margin-bottom: 30px;
+}
+
+/*BODY TEXT*/
+p{
+    margin-bottom: 30px;
 }
