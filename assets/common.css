@@ -76,10 +76,6 @@ a::visited{
 }
 
 /* HOVER STYLE */
-.reeva {
-    position: relative;
-}
-
 .hover{
     display: flex;
     position: absolute;
@@ -146,6 +142,10 @@ a::visited{
     border-radius: 0% 0% 70% 70%;
 }
 
+.reeva {
+    position: relative;
+}
+
 .reeva:hover{
     transform: scale(1.15);
     transition: transform .5s ease;
@@ -161,6 +161,10 @@ a::visited{
     border-radius: 0% 0% 0% 50%;
 }
 
+.ria{
+    position: relative;
+}
+
 .ria:hover{
     transform: scale(1.15);
     transition: transform .5s ease;
@@ -174,6 +178,10 @@ a::visited{
 /* ANNA */
 .ten {
     border-radius: 5% 70% 30% 30%;
+}
+
+.anna{
+    position: relative;
 }
 
 .anna:hover{
