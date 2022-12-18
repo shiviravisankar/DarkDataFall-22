@@ -46,12 +46,12 @@ a.sticky:visited{
 }
 
 .bodytext{
-    flex: 80%;
-    margin-right: 30px;
+    width: 70%;
+    margin-right: 40px;
 }
 
 .footnotes{
-    flex: 20%;
+    width: 30%;
     font-size: var(--footnote);
     line-height: var(--footnote-spacing);
 }

@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-image: linear-gradient(#ED213A, #93291E);
     color: black;
     font-family: 'epilogue', sans-serif;
     margin: auto;
@@ -18,7 +18,58 @@ body{
     position: sticky;
     top: 0;
     float: left;
-    margin-left: -120px;
+    margin-left: -155px;
+    padding-top: 4vw;
     font-size: 8vw;
-    margin-top: 20px;
 } 
+
+.sticky a{
+    color: black;
+    text-decoration: none;
+}
+
+a.sticky:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.sticky:hover{
+    transform: scale(1.5);
+    transition: transform .5s ease;
+}
+
+/*LINE*/
+.line{
+    border-top: 2px solid;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/*LINKS*/
+a{
+    color: rgb(37, 37, 252);
+    text-decoration: underline;
+}
+
+a::visited{
+    color: rgb(37, 37, 252);
+    text-decoration: underline;
+}
+
+/*MAIN HEADING*/
+h1{
+    font-size: 117px;
+    line-height: var(--main-heading-line-height);
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/*FLEXBOX*/
+.content{
+    display: flex;
+}
+
+.paragraph{
+    flex: 3;
+}
