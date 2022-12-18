@@ -1,0 +1,74 @@
+/*PAGE SETUP*/
+body{
+    background-image: linear-gradient(#f7797d, #FBD786, #C6FFDD);
+    color: black;
+    font-family: 'epilogue', sans-serif;
+    margin: auto;
+    padding: auto;
+    width: 75%;
+    font-size: var(--body-copy);
+    line-height: var(--body-copy-line-height);
+}
+
+.intro{
+    margin-top: 50px;
+}
+
+/*LINE*/
+.line{
+    border-top: 2px solid;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/*LINKS*/
+a{
+    color: rgb(37, 37, 252);
+    text-decoration: underline;
+}
+
+a::visited{
+    color: rgb(37, 37, 252);
+    text-decoration: underline;
+}
+
+/*FLEXBOX*/
+.complete{
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.mainparagraph{
+    flex: 80%;
+    margin-right: 30px;
+}
+
+.footnotes{
+    flex: 20%;
+    font-size: var(--footnote);
+    line-height: var(--footnote-spacing);
+}
+
+.footnotes p{
+    margin-bottom: 40px;
+}
+
+/*MAIN HEADING*/
+h1{
+    font-size: 117px;
+    line-height: var(--main-heading-line-height);
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+h5{
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+/*BODY TEXT*/
+
+p{
+    margin-bottom: 10px;
+}

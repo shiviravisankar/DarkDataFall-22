@@ -107,9 +107,18 @@ a::visited{
     opacity: 1;
 }
 
-/* NAME */
+/* CHRISSIE */
 .one {
     border-radius: 0% 30% 50% 70%;
+}
+
+.chrissie{
+    position: relative;
+}
+
+.chrissie:hover{
+    transform: scale(1.15);
+    transition: transform .5s ease;
 }
 
 /* NAME */
