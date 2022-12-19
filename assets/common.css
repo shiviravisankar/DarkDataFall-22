@@ -131,9 +131,17 @@ a::visited{
     border-radius: 20% 20% 20% 20%;
 }
 
-/* NAME */
+/* LARA */
 .four {
     border-radius: 0% 20% 60% 20%;
+}
+.lara {
+    position: relative;
+}
+
+.lara:hover{
+    transform: scale(1.15);
+    transition: transform .5s ease;
 }
 
 /* NAME */
