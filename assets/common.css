@@ -135,6 +135,7 @@ a::visited{
 .four {
     border-radius: 0% 20% 60% 20%;
 }
+
 .lara {
     position: relative;
 }
@@ -144,10 +145,20 @@ a::visited{
     transition: transform .5s ease;
 }
 
-/* NAME */
+/* NELLIE */
 .five {
     border-radius: 50% 0% 50% 0%;
 }
+
+.nellie {
+    position: relative;
+}
+
+.nellie:hover{
+    transform: scale(1.15);
+    transition: transform .5s ease;
+}
+
 
 /* REEVA */
 .six {
