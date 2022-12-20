@@ -160,5 +160,6 @@ li{
 }
 
 li::before{
-    content: "\1F36A";
+    content: "\2192";
+    margin-right: 10px;
 }

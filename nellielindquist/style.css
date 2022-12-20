@@ -1,6 +1,6 @@
 body{
     cursor: url(../icons/nellie.png), auto;
-    background-color: white;
+    background-image: linear-gradient(#A1FFCE, #FAFFD1);
     color: black;
     font-family: 'epilogue', sans-serif;
     margin: auto;
@@ -69,4 +69,31 @@ h1{
 h4{
     font-size: var(--sub-heading);
     margin-bottom: 20px;
+}
+
+/*FLEX BOX*/
+.maincontent{
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.maintext{
+    width: 70%;
+    margin-right: 40px;
+}
+
+.footnotes{
+    width: 30px;
+    font-size: var(--footnote);
+    line-height: var(--footnote-spacing);
+}
+
+.footnotes p{
+    margin-bottom: 30px;
+}
+
+/*BODY TEXT*/
+
+p{
+    margin-bottom: 30px;
 }

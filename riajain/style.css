@@ -145,5 +145,5 @@ li{
 }
 
 li::before{
-    content: "\2600";
+    content: "\2192";
 }
