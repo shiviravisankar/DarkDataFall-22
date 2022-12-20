@@ -1,0 +1,80 @@
+body{
+    cursor: url(../icons/shouvick.png), auto;
+    background-image: linear-gradient(#000000, #434343);
+    color: white;
+    font-family: 'epilogue', sans-serif;
+    margin: auto;
+    padding: auto;
+    width: 75%;
+    font-size: var(--body-copy);
+    line-height: var(--body-copy-line-height);
+}
+
+.intro{
+    margin-top: 50px;
+}
+
+/*ARROW*/
+.sticky {
+    position: sticky;
+    top: 0;
+    float: left;
+    margin-left: -155px;
+    padding-top: 4vw;
+    font-size: 8vw;
+} 
+
+.sticky a{
+    color: white;
+    text-decoration: none;
+}
+
+a.sticky:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.sticky:hover{
+    transform: scale(1.5);
+    transition: transform .5s ease;
+}
+
+/*LINE*/
+.line{
+    border-top: 2px solid;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/*LINKS*/
+a{
+    color: blue;
+    text-decoration: underline;
+}
+
+a::visited{
+    color: blue;
+    text-decoration: underline;
+}
+
+/*MAIN HEADING*/
+h1{
+    font-size: 117px;
+    line-height: var(--main-heading-line-height);
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/*VIDEO*/
+
+video{
+    width: 100%;
+    height: auto;
+}
+
+/*TEXT*/
+p{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}

@@ -121,9 +121,18 @@ a::visited{
     transition: transform .5s ease;
 }
 
-/* NAME */
+/* SHOUVICK */
 .two {
     border-radius: 0% 50% 0% 0%;
+}
+
+.shouvick{
+    position: relative;
+}
+
+.shouvick:hover{
+    transform: scale(1.15);
+    transition: transform .5s ease;
 }
 
 /* NAME */
