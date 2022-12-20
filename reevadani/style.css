@@ -1,5 +1,6 @@
 /*PAGE SETUP*/
     body{
+        cursor: url(../icons/reeva.png), auto;
         background-image: linear-gradient(#FFCD63, #FF7373, #879EFF);
         color: black;
         font-family: 'epilogue', sans-serif;

@@ -1,5 +1,6 @@
 /*PAGE SETUP*/
 body{
+    cursor: url(../icons/chrissie.png), auto;
     background-image: linear-gradient(#f7797d, #FBD786, #C6FFDD);
     color: black;
     font-family: 'epilogue', sans-serif;

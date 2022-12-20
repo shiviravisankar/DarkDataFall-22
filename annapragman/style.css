@@ -1,4 +1,5 @@
 body{
+    cursor: url(../icons/anna.png), auto;
     background-image: linear-gradient(#ADA996, #F2F2F2, #DBDBDB, #EAEAEA);
     color: black;
     font-family: 'epilogue', sans-serif;
