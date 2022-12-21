@@ -9,7 +9,6 @@
         width: 75%;
         font-size: var(--body-copy);
         line-height: var(--body-copy-line-height);
-        cursor: url(‘../images/clock.png’), auto;
     }
 
     .intro{
