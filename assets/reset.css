@@ -49,11 +49,3 @@ sup {
 	font-size:x-small; 
 	vertical-align:top;
 }
-
-
-
-/* Disclosure triangles. */
-details ::marker,
-details ::-webkit-details-marker {
-	display: none;
-}

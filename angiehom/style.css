@@ -1,6 +1,6 @@
 body{
     cursor: url(../icons/angie.png), auto;
-    background-color: white;
+    background-image: linear-gradient(#F3F9A7, #fcf898);
     color: black;
     font-family: 'epilogue', sans-serif;
     margin: auto;
@@ -67,7 +67,15 @@ p{
     margin-bottom: 30px;
 }
 
-/*SUMMARY*/
+/*DROPDOWN*/
+details{
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+
 summary{
-    display: block;
+    font-size: var(--sub-heading);
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-decoration: underline;
 }
