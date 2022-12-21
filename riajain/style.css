@@ -147,3 +147,52 @@ li{
 li::before{
     content: "\2192";
 }
+
+/*SCREENS UNDER 500PX*/
+@media screen and (max-width: 500px ) {
+
+    .content{
+        flex-direction: column;
+    }
+
+    .bodytext{
+        width: 100%;
+    }
+
+    ul{
+        margin-left: 10px;
+    }
+
+    .footnotes{
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .footnotes p{
+        margin-bottom: 10px;
+    }
+
+
+    .line{
+        margin-bottom: 20px;
+    }
+
+    h1{
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    h4{
+        font-size: var(--sub-heading);
+        line-height: var(--sub-heading-line-height);
+    }
+
+    .intro{
+        margin-top: 30px;
+        font-size: var(--body-copy);
+    }
+
+    /*IMAGES*/
+
+
+}

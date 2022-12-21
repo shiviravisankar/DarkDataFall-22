@@ -293,10 +293,10 @@ img{
         --row-height: 100px;
     }
     :root{
-        --body-copy:15px;
+        --body-copy:17px;
         --body-copy-line-height: calc(var(--body-copy)*1.5);
     
-        --main-heading: calc(var(--body-copy)*4);
+        --main-heading: calc(var(--body-copy)*3);
         --main-heading-line-height: calc(var(--main-heading));
     
         --hover-text: 24px;
@@ -324,6 +324,15 @@ img{
     }
     p{
         margin-bottom: 20px;
+    }
+    h1{
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    h4{
+        font-size: var(--body-copy);
+        line-height: var(--body-copy-line-height);
     }
      
 }
