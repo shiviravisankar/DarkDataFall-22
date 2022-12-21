@@ -32,7 +32,7 @@
 
 body{
     margin: 0;
-    background-color: #333;
+    background-color: rgb(29, 29, 29);
 }
 
 /* FONTS */
@@ -250,10 +250,19 @@ a::visited{
     transition: transform .5s ease;
 }
 
-/* NAME */
+/* EDITORS */
 .eleven {
     border-radius: 20% 20% 20% 20%;
     grid-column: span 2;
+}
+
+.editor{
+    position: relative;
+}
+
+.editor:hover{
+    transform: scale(1.15);
+    transition: transform .5s ease;
 }
 
 /*IMAGES*/
