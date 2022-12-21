@@ -46,17 +46,6 @@ a.sticky:visited{
     margin-bottom: 50px;
 }
 
-/*LINKS*/
-a{
-    color: blue;
-    text-decoration: underline;
-}
-
-a::visited{
-    color: blue;
-    text-decoration: underline;
-}
-
 /*MAIN HEADING*/
 h1{
     font-size: 117px;

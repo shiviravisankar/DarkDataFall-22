@@ -183,15 +183,15 @@ a::visited{
     transition: transform .5s ease;
 }
 
-/* JURI */
+/* ANGIE */
 .seven {
     border-radius: 0% 80% 0% 40%;
 }
-.juri {
+.angie {
     position: relative;
 }
 
-.juri:hover{
+.angie:hover{
     transform: scale(1.15);
     transition: transform .5s ease;
 }
@@ -210,9 +210,18 @@ a::visited{
     transition: transform .5s ease;
 }
 
-/* NAME */
+/* JURI */
 .nine {
     border-radius: 0% 70% 70% 0%;
+}
+
+.juri {
+    position: relative;
+}
+
+.juri:hover{
+    transform: scale(1.15);
+    transition: transform .5s ease;
 }
 
 /* ANNA */
