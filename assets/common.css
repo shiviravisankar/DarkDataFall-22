@@ -20,6 +20,9 @@
 
     --caption: 12px;
     --caption-spacing: calc(var(--caption)*1.2);
+
+    --carolina-heading: 48px;
+    --carolina-heading-spacing: calc(var(--carolina-heading)*1.2);
 }
 
 /* PAGE SETUP */
@@ -135,9 +138,18 @@ a::visited{
     transition: transform .5s ease;
 }
 
-/* NAME */
+/* CAROLINA */
 .three {
     border-radius: 20% 20% 20% 20%;
+}
+
+.carolina{
+    position: relative;
+}
+
+.carolina:hover{
+    transform: scale(1.15);
+    transition: transform .5s ease;
 }
 
 /* LARA */
