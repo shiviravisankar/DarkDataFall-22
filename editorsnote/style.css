@@ -1,0 +1,97 @@
+body{
+    cursor: url(../icons/lara.png), auto;
+    background-image: linear-gradient(#ECE9E6, #FFFFFF);
+    color: black;
+    font-family: 'epilogue', sans-serif;
+    margin: auto;
+    padding: auto;
+    width: 75%;
+    font-size: var(--body-copy);
+    line-height: var(--body-copy-line-height);
+}
+
+.intro{
+    margin-top: 50px;
+}
+
+/*ARROW*/
+.sticky {
+    position: sticky;
+    top: 0;
+    float: left;
+    margin-left: -155px;
+    padding-top: 4vw;
+    font-size: 8vw;
+} 
+
+.sticky a{
+    color: black;
+    text-decoration: none;
+}
+
+a.sticky:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.sticky:hover{
+    transform: scale(1.5);
+    transition: transform .5s ease;
+}
+
+/*LINE*/
+.line{
+    border-top: 2px solid;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/*LINKS*/
+a{
+    color: blue;
+    text-decoration: underline;
+}
+
+a::visited{
+    color: blue;
+    text-decoration: underline;
+}
+
+/*MAIN HEADING*/
+h1{
+    font-size: 117px;
+    line-height: var(--main-heading-line-height);
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+h4{
+    font-size: var(--sub-heading);
+    margin-bottom: 20px;
+}
+
+/*BODY TEXT*/
+.para{
+    width: 70%;
+}
+p{
+    margin-bottom: 30px;
+}
+
+h5{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.details{
+    font-style: italic;
+    margin-bottom: 150px;
+    width: 70%;
+}
+
+.linetwo{
+    border-top: 2px solid;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
