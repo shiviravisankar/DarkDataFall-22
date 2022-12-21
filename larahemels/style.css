@@ -76,3 +76,30 @@ p{
     margin-bottom: 30px;
     font-weight: 400;
 }
+
+/*SCREENS UNDER 500PX*/
+@media screen and (max-width: 500px ) {
+    .line{
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: calc(var(--body-copy)*2.5);
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    h4{
+        font-size: var(--sub-heading);
+        line-height: var(--sub-heading-line-height);
+    }
+
+    .intro{
+        margin-top: 30px;
+        font-size: var(--body-copy);
+    }
+
+    .para{
+        width: 100%;
+    }
+}
