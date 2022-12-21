@@ -72,18 +72,18 @@ h4{
 }
 
 /*FLEX BOX*/
-.maincontent{
+.flexbox{
     display: flex;
     margin-bottom: 150px;
-}
 
+}
 .maintext{
     width: 70%;
     margin-right: 40px;
 }
 
 .footnotes{
-    width: 30px;
+    width: 30%;
     font-size: var(--footnote);
     line-height: var(--footnote-spacing);
 }
@@ -96,4 +96,13 @@ h4{
 
 p{
     margin-bottom: 30px;
+}
+
+/*IMAGES*/
+figure{
+    margin-bottom: 30px;
+}
+
+figcaption{
+    width: 90%;
 }
