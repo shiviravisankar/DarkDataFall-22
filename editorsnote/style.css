@@ -160,7 +160,20 @@ h6{
         width: 100%;
     }
 
-    .details{
-        width: 100%;
+    .firstline{
+        flex-direction: column;
+    }
+
+    .secondline{
+        flex-direction: column;
+    }
+    .faculty{
+        margin-bottom: 20px;
+    }
+    .editors{
+        margin-bottom: 20px;
+    }
+    .artdirector{
+        margin-bottom: 20px;
     }
 }
