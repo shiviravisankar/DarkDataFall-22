@@ -317,11 +317,6 @@ img{
         --carolina-heading: 48px;
         --carolina-heading-spacing: calc(var(--carolina-heading)*1.2);
     }
-    body{
-        margin: auto;
-        padding: auto;
-        width: 80%;
-    }
     p{
         margin-bottom: 20px;
     }
