@@ -149,6 +149,10 @@ a.sticky:visited{
         margin-bottom: 50px;
     }
 
+    .footnotemobile{
+        display: none;
+    }
+
 /*SCREENS UNDER 500PX*/
 @media screen and (max-width: 500px ) {
     .footnotes{
@@ -192,8 +196,16 @@ a.sticky:visited{
         margin-top: 0px;
     }
 
-    .partsix{
-        display: block;
+    .partseven{
+        padding-bottom: 0px;
+    }
+
+    .footnotemobile{
+        display: inline;
+        margin-top: 30px;
+        font-size: var(--footnote);
+        line-height: var(--footnote-spacing);
+        margin-bottom: 150px;
     }
 
     /*IMAGES*/
