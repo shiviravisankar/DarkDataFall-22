@@ -150,3 +150,68 @@ video{
 .sketches img{
     margin-bottom: 10px;
 }
+
+@media screen and (max-width: 500px ) {
+    .line{
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: calc(var(--body-copy)*4.5);
+        line-height: calc(var(--body-copy-line-height)*3);
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    
+    .intro{
+        margin-top: 30px;
+        font-size: 15px;
+    }
+
+    h5{
+        font-size: 35px;
+        line-height: 35px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .instruction{
+        flex-direction: column;
+    }
+
+    video{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .note{
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .scan{
+        flex-direction: column;
+    }
+
+    .photo{
+        width: 100%;
+    }
+
+    .brief{
+        width: 100%;
+    }
+
+    .pawns{
+        margin-bottom: 50px;
+    }
+
+    .end p{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .sketches img{
+        width: 100%;
+    }
+
+}
