@@ -165,7 +165,7 @@ video{
     h1{
         font-size: calc(var(--body-copy)*4.5);
         line-height: calc(var(--body-copy-line-height)*3);
-        margin-top: 40px;
+        margin-top: 30px;
         margin-bottom: 10px;
     }
     
