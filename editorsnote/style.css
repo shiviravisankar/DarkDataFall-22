@@ -84,16 +84,53 @@ h5{
     margin-bottom: 10px;
 }
 
+h6{
+    font-size: var(--body-copy);
+    font-weight: bold;
+}
+
 .details{
+    width: 70%;
     font-style: italic;
     margin-bottom: 150px;
-    width: 70%;
 }
 
 .linetwo{
     border-top: 2px solid;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.firstline{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.firstline p{
+    margin-bottom: 0px;
+}
+
+.secondline{
+    display: flex;
+    width: 70%;
+    margin-bottom: 150px;
+}
+
+.titleend h6{
+    margin-right: 40px;
+}
+
+.contentend{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contentend p{
+    margin-right: 20px;
+    margin-bottom: 0px;
 }
 
 @media screen and (max-width: 500px ) {
