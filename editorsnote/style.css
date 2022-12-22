@@ -95,3 +95,29 @@ h5{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+@media screen and (max-width: 500px ) {
+    .line{
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: calc(var(--body-copy)*3.5);
+        line-height: calc(var(--body-copy-line-height)*2.5);
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .intro{
+        margin-top: 30px;
+        font-size: 15px;
+    }
+
+    .para{
+        width: 100%;
+    }
+
+    .details{
+        width: 100%;
+    }
+}
