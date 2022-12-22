@@ -81,6 +81,11 @@ summary{
 }
 
 @media screen and (max-width: 500px ) {
+    body{
+        margin: auto;
+        padding: auto;
+        width: 80%;
+    }
     .line{
         margin-bottom: 20px;
     }

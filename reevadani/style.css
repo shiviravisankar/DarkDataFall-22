@@ -155,6 +155,12 @@ a.sticky:visited{
 
 /*SCREENS UNDER 500PX*/
 @media screen and (max-width: 500px ) {
+    body{
+        margin: auto;
+        padding: auto;
+        width: 80%;
+    }
+    
     .footnotes{
         display: none;
         margin: 0;
