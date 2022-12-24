@@ -206,14 +206,6 @@ a.sticky:visited{
         padding-bottom: 0px;
     }
 
-    .footnotemobile{
-        display: inline;
-        margin-top: 30px;
-        font-size: var(--footnote);
-        line-height: var(--footnote-spacing);
-        margin-bottom: 150px;
-    }
-
     /*IMAGES*/
 
         .one{

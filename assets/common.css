@@ -333,5 +333,11 @@ img{
     .hover{
         display: none;
     }
-     
+
+    .footnotes{
+        display: none;
+    }
+    cursor{
+        display: none;
+    }
 }
