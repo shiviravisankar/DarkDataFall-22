@@ -299,24 +299,30 @@ img{
         --main-heading: calc(var(--body-copy)*3);
         --main-heading-line-height: calc(var(--main-heading));
     
-        --hover-text: 24px;
-        --hover-text-line-height: calc(var(--hover-text)*1.4);
-    
         --sub-heading: 18px;
         --sub-heading-line-height: calc(var(--sub-heading)*1.2);
-    
-        --title: 14px;
-        --title-line-height: calc(var(--title));
-    
-        --footnote: 11px;
-        --footnote-spacing: calc(var(--footnote)*1.5);
     
         --caption: 12px;
         --caption-spacing: calc(var(--caption)*1.2);
     
-        --carolina-heading: 48px;
-        --carolina-heading-spacing: calc(var(--carolina-heading)*1.2);
     }
+
+    /*FONT FOR MOBILE*/
+    @font-face {
+        font-family: 'epilogueitalic';
+        src: url('epilogue-italic-variablefont_wght-webfont.woff2') format('woff2'),
+             url('epilogue-italic-variablefont_wght-webfont.woff') format('woff');
+        font-weight: 100, 200, 300, 400, 500, 600, 700, 800, 900;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'epilogueregular';
+        src: url('epilogue-variablefont_wght-webfont.woff2') format('woff2'),
+             url('epilogue-variablefont_wght-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+
     p{
         margin-bottom: 20px;
     }
@@ -338,6 +344,10 @@ img{
         display: none;
     }
     cursor{
+        display: none;
+    }
+
+    .sticky {
         display: none;
     }
 }

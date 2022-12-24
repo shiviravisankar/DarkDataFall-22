@@ -149,10 +149,6 @@ a.sticky:visited{
         margin-bottom: 50px;
     }
 
-    .footnotemobile{
-        display: none;
-    }
-
 /*SCREENS UNDER 500PX*/
 @media screen and (max-width: 500px ) {
     body{
