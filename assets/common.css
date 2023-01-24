@@ -1,6 +1,6 @@
 /* SETUP FOR TYPOGRAPHY */
 :root{
-    --body-copy:17px;
+    --body-copy:18px;
     --body-copy-line-height: calc(var(--body-copy)*1.5);
 
     --main-heading: calc(var(--body-copy)*8);
